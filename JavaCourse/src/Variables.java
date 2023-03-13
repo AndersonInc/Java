@@ -14,7 +14,6 @@
 * Youcan do all the two at once
 * Lets see an example of the above*/
 public class Variables {
-    static int age = 23; //static variable
     int amount = 5000; //Instance variable
 
     void trade(){
