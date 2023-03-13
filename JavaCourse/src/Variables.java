@@ -20,5 +20,7 @@ public class Variables {
     void trade(){
         double price = 2.5; //Local Variable
     }
+public static void main(String[] Args){
 
+}
 }
