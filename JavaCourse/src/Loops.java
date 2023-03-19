@@ -1,4 +1,6 @@
 public class Loops {
+
+
     public static void main(String Args[]){
         //Loops are a block of code that executes over a given period of time under a certain coondition untill that condition is evaluate
         //Imagine typing the word "hello world" 100 times it would take you alot to repeat such statements 100 times thanks to loops
@@ -20,10 +22,9 @@ public class Loops {
         }while (i>0);
         //For each loop: this can be used to iterate through a loop
         int[] numbers = {3, 7, 5, -5};
-        for (int number:numbers
-             ) {
-            System.out.print(","+number+"");
-        }
+
+           // System.out.print(","+number+"");
+       
 
     }
 }
