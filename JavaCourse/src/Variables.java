@@ -14,12 +14,26 @@
 * Youcan do all the two at once
 * Lets see an example of the above*/
 public class Variables {
-    int amount = 5000; //Instance variable
+   /* int amount = 5000; //Instance variable
 
     void trade(){
         double price = 2.5; //Local Variable
+    }*/
+    //Object mutability- this is the ability to modify a created object it implies the object has setters and getters plus an access metod
+    private String college;
+    Variables(String s){
+        this.college = s;
+    }
+    public void setCollege(String c){
+        this.college = c;
+    }
+    public String getCollege(){
+        return this.college;
     }
 public static void main(String[] Args){
+        Variables obj = new Variables("Macos");
+        obj.setCollege("Cocis");
+        System.out.println(obj.getCollege());
 
 }
 }

@@ -22,7 +22,11 @@ public class Loops {
         }while (i>0);
         //For each loop: this can be used to iterate through a loop
         int[] numbers = {3, 7, 5, -5};
+        for (int m:numbers
+             ) {
+            System.out.println(m);
 
+        }
            // System.out.print(","+number+"");
        
 
